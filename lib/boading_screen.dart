@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:interior_design_app/routes/routes_name.dart';
 
 class BoadingScreen extends StatefulWidget {
   const BoadingScreen({Key? key}) : super(key: key);
@@ -56,9 +55,7 @@ class _BoadingScreenState extends State<BoadingScreen> {
                       Colors.black,
                     ),
                   ),
-                  onPressed: () {
-                    Navigator.pushReplacementNamed(context, RoutesName.secondscreen);
-                  },
+                  onPressed: () {},
                   child: Container(
                     padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 80),
                     child: const Text(
